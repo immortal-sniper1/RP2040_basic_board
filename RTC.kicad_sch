@@ -2,7 +2,7 @@
 
   (uuid 50082213-59b8-4178-ae4c-b6bf80352015)
 
-  (paper "A4")
+  (paper "A3")
 
   (title_block
     (title "RP2040 learning board with Li ion battery and RTC")
@@ -301,7 +301,6 @@
       )
     )
   )
-
 
   (junction (at 72.39 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 58bcb7be-d6fc-44fe-98cc-4ab651432282)
