@@ -1,4 +1,4 @@
-21835871125868945
+21839173006358727
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -55888,6 +55888,13 @@ ESP32
 38
 38
 Espressif
+ESP32-S2-DevKitM
+ESP32-S2 general-purpose development board
+ESP32-S2
+0
+42
+42
+Espressif
 ESP32-S2-MINI-1
 ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
 ESP32-S2
@@ -83936,6 +83943,13 @@ Switch
 0
 16
 16
+SamacSys_Parts
+EG1224
+EG1224
+Switch
+0
+7
+7
 SamacSys_Parts
 MEM20510019500A
 MEM2051-00-195-00-A-3
