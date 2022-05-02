@@ -1771,7 +1771,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 621e96ba-a160-4d72-8360-484db0c21a3e)
   )
-  (text "USB Data+Power Input\nfiltering and fuse" (at 80.01 33.02 0)
+  (text "USB Data+Power Input\nfiltering and fuse" (at 65.405 28.575 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 636be384-0750-4ab3-8a48-518230c04740)
   )
