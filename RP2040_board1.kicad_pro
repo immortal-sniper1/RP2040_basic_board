@@ -428,7 +428,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "RP2040_board1.wrl"
     },
     "page_layout_descr_file": ""
   },
