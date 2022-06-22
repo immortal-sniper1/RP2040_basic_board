@@ -4058,6 +4058,23 @@
     (pin "2" (uuid 02d15f28-df4b-48b5-b1c2-bba52495e1a8))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 340.36 238.76 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 2e02c559-7cf2-4550-8043-f6ed8370edaf)
+    (property "Reference" "H3" (id 0) (at 339.09 234.95 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 334.01 243.84 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 340.36 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 340.36 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 105.41 259.715 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e855325-fa93-4a34-99cb-e07cd02489ab)
@@ -5825,6 +5842,9 @@
     (path "/875836db-e2df-402a-a219-aedbfdd5ffca"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
+    (path "/2e02c559-7cf2-4550-8043-f6ed8370edaf"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
     (path "/0b7e7216-d48e-41fc-8bc4-968fd6608f05"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
@@ -5860,6 +5880,9 @@
     )
     (path "/67827a8b-bf90-4908-bd47-7985dfd968aa"
       (reference "J10") (unit 1) (value "Conn_01x01") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical")
+    )
+    (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/d3feea14-ff08-4791-8d7f-466f48bba395"
+      (reference "J11") (unit 1) (value "Conn_01x01") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical")
     )
     (path "/e8a6fe2b-2fbf-47dc-a43b-ccbee8db7579"
       (reference "JP1") (unit 1) (value "SolderJumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")

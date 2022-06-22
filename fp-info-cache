@@ -1,4 +1,4 @@
-21897249380108133
+21900569208784453
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -84168,12 +84168,26 @@ Connector
 3
 3
 SamacSys_Parts
+TC75S59FUTE85LF
+SSOP5-P-0.65A_2022
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
 TO546P531X1558X2499-3P
 PTVS14VS1UTR,115
 Transistor
 0
 3
 3
+SamacSys_Parts
+VN02A1500000G
+VN02A1500000G-1
+Connector
+0
+2
+2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -92985,8 +92999,8 @@ Z_mycustom_footprint_lib
 
 
 0
-0
-0
+1
+1
 Z_mycustom_footprint_lib
 2002102255
 potentiometer 
