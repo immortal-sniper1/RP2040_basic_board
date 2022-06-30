@@ -5713,6 +5713,9 @@
     (path "/1207afc8-01d4-40cc-b381-22a2647e06b4"
       (reference "#PWR070") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/fbb8e0af-da8d-4169-b2a0-386b4e031496/6eb953e8-2612-4b61-bd5f-88e80858d83b"
+      (reference "#PWR071") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/e8f00454-d6d3-412c-85c4-cd43fb18ef0a"
       (reference "#PWR0101") (unit 1) (value "+VDC") (footprint "")
     )
@@ -5740,8 +5743,11 @@
     (path "/0572de93-7e61-41ae-84a5-708c5f03441c"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
+    (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/fbb8e0af-da8d-4169-b2a0-386b4e031496/79b316ef-1d62-4ba7-84bb-cb12fea62e71"
+      (reference "C2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/fbb8e0af-da8d-4169-b2a0-386b4e031496/9f7b2284-1136-4767-a60a-c5ae87f3e6d8"
-      (reference "C3") (unit 1) (value "22u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/0b667107-bce1-4a14-b9ea-173d9ad091f2"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5786,7 +5792,7 @@
       (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/fbb8e0af-da8d-4169-b2a0-386b4e031496/9785d34e-364c-40c0-b77f-10946264ab31"
-      (reference "C18") (unit 1) (value "22u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+      (reference "C18") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/45099ef8-b470-4f34-a90e-0a936a6b6d10/9d65c47e-8f5a-4bf7-b976-9e79f89d3c41"
       (reference "C19") (unit 1) (value "15pF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -5975,10 +5981,10 @@
       (reference "R24") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/fbb8e0af-da8d-4169-b2a0-386b4e031496/f81df44e-b78a-4cd6-9a03-b053c432e5cb"
-      (reference "RR1") (unit 1) (value "R_Small") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical")
+      (reference "RR1") (unit 1) (value "91k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/fbb8e0af-da8d-4169-b2a0-386b4e031496/2982fbde-d7ac-415c-ba98-964a590d7d4e"
-      (reference "RR2") (unit 1) (value "R_Small") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical")
+      (reference "RR2") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e2aaeb2d-114e-408c-88f1-df515c6dab22/35a575e5-7e0b-4624-9431-b15d63de581e"
       (reference "S1") (unit 1) (value "EG1224  SPDT switch") (footprint "SamacSys_Parts:EG1224")
