@@ -3588,7 +3588,7 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GPIO24" (shape input) (at 159.385 140.335 0) (fields_autoplaced)
+  (global_label "GPIO24" (shape output) (at 159.385 140.335 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 93fae4e3-5fee-4119-b3f1-aafaaabc58d4)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 168.6924 140.2556 0)
