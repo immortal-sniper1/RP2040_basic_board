@@ -3710,7 +3710,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 354.965 238.76 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 0b7e7216-d48e-41fc-8bc4-968fd6608f05)
     (property "Reference" "H4" (id 0) (at 353.695 234.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3858,7 +3858,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 275.59 232.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 15798fd9-5ff1-49ce-92f8-3c7f37e4273f)
     (property "Reference" "FID1" (id 0) (at 278.765 231.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3891,7 +3891,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 275.59 237.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 1fc1f7a5-2a0c-44bb-8e36-dd6ae1a56c20)
     (property "Reference" "FID2" (id 0) (at 278.765 236.2199 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4059,7 +4059,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 340.36 238.76 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 2e02c559-7cf2-4550-8043-f6ed8370edaf)
     (property "Reference" "H3" (id 0) (at 339.09 234.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4167,7 +4167,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 312.42 238.76 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 37e25b07-cf59-45fe-844f-5417bc730cd4)
     (property "Reference" "H1" (id 0) (at 311.15 234.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4425,7 +4425,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 293.37 204.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 67827a8b-bf90-4908-bd47-7985dfd968aa)
     (property "Reference" "J10" (id 0) (at 295.91 203.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4629,7 +4629,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 238.76 264.16 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 7c5a4093-681c-40c1-8700-d3e8549580ef)
     (property "Reference" "JP2" (id 0) (at 239.395 271.145 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4718,7 +4718,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 326.39 238.76 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 875836db-e2df-402a-a219-aedbfdd5ffca)
     (property "Reference" "H2" (id 0) (at 325.12 234.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5017,7 +5017,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 275.59 243.205 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid c127cef7-fbdf-42a7-bf3c-029d6c62a015)
     (property "Reference" "FID3" (id 0) (at 278.765 241.9349 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5139,7 +5139,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 386.08 189.23 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid d4e3c877-c56b-4fca-853a-3bb19db334ac)
     (property "Reference" "J7" (id 0) (at 388.62 187.9599 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5280,7 +5280,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 204.47 218.44 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid e8a6fe2b-2fbf-47dc-a43b-ccbee8db7579)
     (property "Reference" "JP1" (id 0) (at 197.485 219.075 90)
       (effects (font (size 1.27 1.27)) (justify right))

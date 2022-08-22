@@ -2234,7 +2234,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 154.94 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 43ad02ba-bf57-4be3-a9f9-0ac8eccea1e9)
     (property "Reference" "JP4" (id 0) (at 147.955 112.395 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2721,7 +2721,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 129.54 111.76 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid bebfd0f3-31c8-479c-b16d-2df4f78be5a2)
     (property "Reference" "JP3" (id 0) (at 132.08 110.4899 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2759,7 +2759,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 73.025 64.77 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid d3feea14-ff08-4791-8d7f-466f48bba395)
     (property "Reference" "J11" (id 0) (at 67.945 66.675 0))
     (property "Value" "Conn_01x01" (id 1) (at 67.945 69.215 0))
