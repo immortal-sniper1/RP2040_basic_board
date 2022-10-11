@@ -1,9 +1,9 @@
-#include <MCP79412RTC.h>
-#include <time.h>
-#include <Wire.h>
+#include <MCP79412RTC.h>    // http://github.com/JChristensen/MCP79412RTC
+#include <TimeLib.h>        // https://www.pjrc.com/teensy/td_libs_DS1307RTC.html
+#include <Wire.h>           // https://www.arduino.cc/en/Reference/Wire
 
-#include <SD.h>
-#include <SPI.h>
+//#include <SD.h>
+//#include <SPI.h>
 #include <DHT.h>
 #include <DHT_U.h>
 #include <Adafruit_Sensor.h>
@@ -36,7 +36,12 @@ DHT_Unified dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
 
 
+
+
 ////////////////////////  SUBPROGRAMS  ///////////////////////////
+
+
+////// DHT
 
 void DHT_init()
 {
@@ -95,17 +100,12 @@ void DHT_measurer()
 }
 
 
-void RTC_init()
-{
-  setSyncProvider(RTC.get);   // the function to get the time from the RTC
-  if (timeStatus() != timeSet)
-    Serial.println("Unable to sync with the RTC");
-  else
-    Serial.println("RTC has set the system time");
-}
+///// RTC
 
-
-
+const byte PICO_I2C_ADDRESS = 0x55;
+const byte PICO_I2C_SDA = 20;
+const byte PICO_I2C_SCL = 21;
+const byte PICO_LED = 25;
 
 void digitalClockDisplay()
 {
@@ -142,6 +142,11 @@ void setup() {
   Serial.begin(9600);
   DHT_init();
   DHT_measurer();
+  setSyncProvider(RTC.get);   // the function to get the time from the RTC
+  if (timeStatus() != timeSet)
+    Serial.println("Unable to sync with the RTC");
+  else
+    Serial.println("RTC has set the system time");
 
 
 
