@@ -22,12 +22,19 @@
 
 File myFile;
 
+/*
 #define SPI_SC 21
 #define SPI_MISO 20
 #define SPI_MOSI 19
 #define SPI_SCK 18
 #define SDcard_detect 22
+*/
 
+#define SPI_SC 5
+#define SPI_MISO 4
+#define SPI_MOSI 3
+#define SPI_SCK 2
+#define SDcard_detect 22
 
 int8_t SD_state = 0;
 
