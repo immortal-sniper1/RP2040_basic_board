@@ -17,25 +17,28 @@
   This example code is in the public domain.
 
 */
+
+#define SPI_SS_PIN 21
+#define SPI_MISO_PIN 20
+#define SPI_MOSI_PIN 19
+#define SPI_SCK_PIN 18
+#define SDcard_detect 22
+
 #include <SPI.h>
 #include <SD.h>
 
 File myFile;
 
-/*
-#define SPI_SC 21
-#define SPI_MISO 20
-#define SPI_MOSI 19
-#define SPI_SCK 18
-#define SDcard_detect 22
-*/
 
+
+
+/*
 #define SPI_SC 5
 #define SPI_MISO 4
 #define SPI_MOSI 3
 #define SPI_SCK 2
 #define SDcard_detect 22
-
+*/
 int8_t SD_state = 0;
 
 
@@ -47,6 +50,7 @@ void setup() {
     ; // wait for serial port to connect. Needed for native USB port only
   }
 
+  Serial.println("trwsterwe");
   SD_state = digitalRead(SDcard_detect);
   Serial.print("SD card state=");
   Serial.println(SD_state);

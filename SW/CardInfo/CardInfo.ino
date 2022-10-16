@@ -19,6 +19,14 @@
   modified 9 Apr 2012
   by Tom Igoe
 */
+
+#define SPI_SC 21
+#define SPI_MISO 20
+#define SPI_MOSI 19
+#define SPI_SCK 18
+
+
+
 // include the SD library:
 #include <SPI.h>
 #include <SD.h>
@@ -28,11 +36,6 @@ Sd2Card card;
 SdVolume volume;
 SdFile root;
 
-
-#define SPI_SC 21
-#define SPI_MISO 20
-#define SPI_MOSI 19
-#define SPI_SCK 18
 
 
 // change this to match your SD shield or module;
