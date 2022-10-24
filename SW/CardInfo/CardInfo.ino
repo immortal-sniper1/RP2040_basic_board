@@ -32,7 +32,7 @@
 #include <SD.h>
 
 // set up variables using the SD utility library functions:
-Sd2Card card;
+SdCard card;
 SdVolume volume;
 SdFile root;
 
