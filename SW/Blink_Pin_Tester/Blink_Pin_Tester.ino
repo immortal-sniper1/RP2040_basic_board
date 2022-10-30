@@ -132,10 +132,9 @@ void loop()
       //Reset for the next message
       message_index = 0;
       Chose_Blink_Serial_Pin( message );
-
-
-
     }
+    Serial.println("Ready for next pin!");
+    
   }
 }
 
