@@ -4,7 +4,8 @@ const  int8_t MAX_MESSAGE_LENGTH = 60;
 static char message[MAX_MESSAGE_LENGTH];
 static unsigned int message_index = 0;
 const  int8_t START_PIN_NUMBER = 0;
-const  int8_t MAX_PIN_NUMBER = 4;
+const  int8_t MAX_PIN_NUMBER = 27;
+int8_t led_state_after = 1;
 
 
 
@@ -43,6 +44,10 @@ void blink_Pin(int8_t x )
     delay(500);                      // wait for a second
     digitalWrite(x, HIGH);  // turn the LED on (HIGH is the voltage level)
     delay(500);
+    if ( led_state_after != 1)
+    {
+      digitalWrite(x, LOW);
+    }
   }
 }
 
@@ -92,6 +97,9 @@ void setup()
 {
   // initialize digital pin TESTED_PIN as an output.
   Serial.begin(9600);
+  Serial.print("Set to leave as ");
+  Serial.println( led_state_after );
+  Serial.println("after blink is done");
 
 }
 
@@ -103,7 +111,13 @@ void setup()
 void loop()
 {
   char inByte;
-  Serial.println("Waiting for pin number input  ");
+  bool counter = true;
+  if (counter)
+  {
+    Serial.println("Waiting for the next pin number input...  ");
+    counter = false;
+  }
+
 
 
 //Check to see if anything is available in the serial receive buffer
@@ -114,7 +128,7 @@ void loop()
     inByte = Serial.read();
 
     //Message coming in (check not terminating character) and guard for over message size
-    if ( inByte != '!' && (message_index < MAX_MESSAGE_LENGTH - 1) )
+    if ( (inByte != '*') && (message_index < MAX_MESSAGE_LENGTH - 1) )
     {
       //Add the incoming byte to our message
       message[message_index] = inByte;
@@ -134,7 +148,8 @@ void loop()
       Chose_Blink_Serial_Pin( message );
     }
     Serial.println("Ready for next pin!");
-    
+    counter = true;
+
   }
 }
 
