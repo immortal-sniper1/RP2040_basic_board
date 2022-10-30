@@ -32,7 +32,7 @@
 #include <SD.h>
 
 // set up variables using the SD utility library functions:
-SdCard card;
+Sd2Card card;
 SdVolume volume;
 SdFile root;
 
@@ -43,12 +43,15 @@ SdFile root;
 // Adafruit SD shields and modules: pin 10
 // Sparkfun SD shield: pin 8
 // MKRZero SD: SDCARD_SS_PIN
-const int chipSelect = 4;
+const int chipSelect = 21;
 
 void setup()
 {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
+  SPI.setRX(20);
+  SPI.setTX(18);
+  SPI.setSCK(19);
   while (!Serial)
   {
     ;  // wait for serial port to connect. Needed for native USB port only

@@ -42,11 +42,16 @@
    ** SCK  - pin 2
 */
 
-
+/*
 #define PIN_SPI_SS 9
 #define PIN_SPI_MISO 12
 #define PIN_SPI_MOSI 11
 #define PIN_SPI_SCK 10
+*/
+#define PIN_SPI_SC 21
+#define PIN_SPI_MISO 20
+#define PIN_SPI_MOSI 19
+#define PIN_SPI_SCK 18
 
 
 
@@ -121,6 +126,11 @@ void setup()
 {
   // Open serial communications and wait for port to open:
   Serial.begin(115200);
+  SPI.setRX(20);
+  SPI.setTX(18);
+  SPI.setSCK(19);
+  SPI.setCS(21);
+  //SPI.beginTransaction( 1000000);
   while (!Serial);
 
   delay(1000);

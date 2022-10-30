@@ -64,7 +64,21 @@ void printDirectory(File dir, int numTabs)
 void setup()
 {
   // Open serial communications and wait for port to open:
+
   Serial.begin(115200);
+  /*
+  SPI.setRX(20);
+  SPI.setTX(18);
+  SPI.setSCK(19);
+  SPI.setCS(21);
+  */
+  /*
+ #define SPI_SC 21
+ #define SPI_MISO 20
+ #define SPI_MOSI 19
+ #define SPI_SCK 18
+ */
+  // SPI._miso(20);
   while (!Serial)
     ;
 
