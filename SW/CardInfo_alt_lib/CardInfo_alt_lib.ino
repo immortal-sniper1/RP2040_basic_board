@@ -55,6 +55,7 @@
 
 
 
+
 #if !defined(ARDUINO_ARCH_RP2040)
   #error For RP2040 only
 #endif
@@ -126,11 +127,6 @@ void setup()
 {
   // Open serial communications and wait for port to open:
   Serial.begin(115200);
-  SPI.setRX(20);
-  SPI.setTX(18);
-  SPI.setSCK(19);
-  SPI.setCS(21);
-  //SPI.beginTransaction( 1000000);
   while (!Serial);
 
   delay(1000);
